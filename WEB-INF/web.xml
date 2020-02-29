@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>ws</servlet-name>
+		<servlet-class>AddServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ws</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+</web-app>
